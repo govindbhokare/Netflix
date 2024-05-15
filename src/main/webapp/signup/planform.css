@@ -1,0 +1,145 @@
+.main-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+    
+   
+}
+.container{
+    width: 300px;
+  
+    border: 1px solid #737373;
+   
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+border-radius: 10px;
+
+}
+.premium , .content{
+    color: white;
+    height: 12%;
+    width: 95%;
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 13px -3px;
+   background:  radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+    background-image: radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%);
+    background-color: rgb(29, 82, 157);
+    border-radius: 10px;
+    box-sizing: border-box;
+padding-left: 10px;
+display: flex;
+justify-content: start;
+align-items: center;
+
+}
+.content{
+    margin-top: 10px;
+}
+ul{
+    padding-top: 1px;
+    width: 80%;
+    list-style: none;
+}
+.border{
+    margin-top: 2px;
+   
+    width: 70%;
+    border: 1px solid #737373;
+
+}
+.faint{
+    color:#737373
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    padding-top: 10px;
+    padding-left: 130px;
+}
+.premium-container-visible{
+    border:1px solid rgba(128, 128, 128, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25)0px 4px 10px 0px;
+
+
+}
+.Basic-container-visible{
+    border:1px solid rgba(128, 128, 128, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25)0px 4px 10px 0px;
+
+
+}
+.Standard-container-visible{
+    border:1px solid rgba(128, 128, 128, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25)0px 4px 10px 0px;
+
+ 
+}
+.Mobile-container-visible{
+    border:1px solid rgba(128, 128, 128, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.25)0px 4px 10px 0px;
+
+
+}
+.checkbox{
+   position: absolute;
+   margin-left: 247px;
+   display: none;
+    
+}
+.premium-chec{
+    display: none;
+}
+.standard-chec{
+    display: none;
+}
+.basic-chec{
+    display: none;
+}
+.mobile-chec{
+    display: none;
+}
+.parag{
+ margin-left: 150px;
+ margin-right: 150px;
+ font-size: 0.90rem;   
+}
+.bt-next{
+    width: 438px;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.button-next {
+    font-size: 1.8rem;
+    font-weight: 400px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.next-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+   
+}
+main{
+    
+  
+    padding-bottom: 95px;
+}

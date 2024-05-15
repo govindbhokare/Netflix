@@ -1,0 +1,73 @@
+.v-logo{
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-image: url('/Checkmark2.png');
+}
+.v-container{
+    height: 400px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  
+}
+.subheader{
+    width: 60%;
+     display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;   
+ text-align: center;
+}
+p {
+   
+    text-align: center;
+    font-size: large;
+    color: rgb(121, 115, 115);
+}
+.dynamic{
+    font-size: larger;
+    color: black;
+}
+
+.bt-next{
+    width: 60%;
+    height: 60px;
+    background-color:rgba(128, 128, 128, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.button-next {
+    font-size: 1.8rem;
+    font-weight: 400px;
+    color: black;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.next-center{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+   
+}
+.vspan{
+    margin-top: 15px;
+
+}

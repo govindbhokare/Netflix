@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --red:#e50914;
+    --black:#000;
+    --white:#fff;
+    font-size: 13px;
+}
+
+.nav1{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    z-index: 3;
+    /* position: fixed; */
+   
+}
+.logo-container{
+    
+    width: 190px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+
+}
+.logo{
+    width: 80%;
+    height: 80%;
+    background-image: url('/netflixlogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    /* background-color: red; */
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+    /* justify-content: center; */
+}
+.list{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+    /* background-color: red; */
+
+}
+.user
+{
+ width: 45px;
+ height: 45px;
+ border-radius: 50%;
+    background-color: rgba(250, 235, 215, 0.792);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: red; */
+}
+.menu-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: yellow; */
+}
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+
+/* section */
+.hero-section{
+/* width: 100%; */
+/* height: 600px; */
+/* background-color: red; */
+
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+background-position:  top;
+padding: 170px 5% 130px;
+height: 250px;
+/* padding-bottom: 81px; */
+position: relative;
+
+}
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+      to top,
+      var(--black),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.9)
+    );
+  }
+.main-section{
+    height: 500px;
+    width: 50%;
+    /* background-color:red ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    
+    display: flex;
+    flex-direction:column ;
+    color: white;
+    font-size: 2.4rem;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    /* background-color: yellow; */
+   
+    width: 70%;
+    z-index: 2;
+}
+.hero-discription{
+ 
+    width: 83%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    align-items: start;
+    /* justify-content: flex-start; */
+    text-align: justify;
+    z-index: 3;
+    
+}
+.btn{
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 60%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: -53px;
+    /* align-self: self-start; */
+    /* background-color: rebeccapurple; */
+}
+button{
+    width: 40%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0,0,0.36);
+    border: none;
+    font-size: 1.2rem;
+    flex: 1 1 120px;
+    display: inline-block;
+   
+    margin-left: -10px;
+    
+}
+button i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+}
+/* movies */
+.movie-list{
+    color: white;
+   font-size: 1.2rem;
+    
+    /* height: 352px; */
+   background-color: black;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.movies{
+    display: flex;
+    overflow: scroll;
+    /* background-color: blue; */
+    
+}
+h2{
+    font-size: 2rem;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-img{
+    width: 230px;
+    height: 300px;
+    margin: 2px;
+}
+.movies-other{
+    display: flex;
+    overflow: scroll;
+    /* background-color: blue; */
+    
+}
+.movies-other .movie-img{
+    width: 260px;
+    height: 153px;
+    margin: 2px;
+}
